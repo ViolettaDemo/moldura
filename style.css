@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(185, 123, 203);
+}
+h3
+{
+  font-size: 25px !important;
+}
+canvas {
+ animation-name:FLOR;
+animation-duration: 4s;
+animation-iteration-count:infinite;
+}
+@keyframes FLOR{
+from{box-shadow:1px 1px 31px rgb(50, 3, 59); }
+to {box-shadow: 1px 1px 31px rgb(112, 0, 172);}
+}
